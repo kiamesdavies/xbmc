@@ -1,0 +1,5 @@
+/opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/lib/kodi/addons/audioencoder.flac/libaudioencoder.flac.so
+/opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/share/kodi/addons/audioencoder.flac/addon.xml
+/opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/share/kodi/addons/audioencoder.flac/resources/settings.xml
+/opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/share/kodi/addons/audioencoder.flac/resources/language/English/strings.po
+/opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/share/kodi/addons/audioencoder.flac/icon.png

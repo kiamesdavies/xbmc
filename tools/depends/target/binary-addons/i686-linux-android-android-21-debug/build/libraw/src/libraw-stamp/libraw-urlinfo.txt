@@ -1,0 +1,3 @@
+repository='external project URL'
+module='http://mirrors.kodi.tv/build-deps/sources/LibRaw-0.18.2.tar.gz'
+tag=''

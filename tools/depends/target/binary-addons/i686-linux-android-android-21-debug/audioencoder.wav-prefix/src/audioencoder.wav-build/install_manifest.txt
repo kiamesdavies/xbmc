@@ -1,0 +1,3 @@
+/opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/lib/kodi/addons/audioencoder.wav/libaudioencoder.wav.so
+/opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/share/kodi/addons/audioencoder.wav/addon.xml
+/opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/share/kodi/addons/audioencoder.wav/icon.png

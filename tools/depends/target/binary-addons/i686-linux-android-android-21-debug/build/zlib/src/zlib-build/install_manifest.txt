@@ -1,0 +1,6 @@
+/root/kodi-android/tools/depends/target/binary-addons/i686-linux-android-android-21-debug/build/depends/lib/libz.so
+/root/kodi-android/tools/depends/target/binary-addons/i686-linux-android-android-21-debug/build/depends/lib/libz.a
+/root/kodi-android/tools/depends/target/binary-addons/i686-linux-android-android-21-debug/build/depends/include/zconf.h
+/root/kodi-android/tools/depends/target/binary-addons/i686-linux-android-android-21-debug/build/depends/include/zlib.h
+/root/kodi-android/tools/depends/target/binary-addons/i686-linux-android-android-21-debug/build/depends/share/man/man3/zlib.3
+/root/kodi-android/tools/depends/target/binary-addons/i686-linux-android-android-21-debug/build/depends/share/pkgconfig/zlib.pc

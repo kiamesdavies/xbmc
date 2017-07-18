@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="audiodecoder.stsound"
+  version="1.1.3"
+  name="YM Audio Decoder"
+  provider-name="spiff">
+  <requires>
+<import addon="kodi.binary.global.main" version="1.0.9"/>
+<import addon="kodi.binary.instance.audiodecoder" version="1.0.1"/></requires>
+  <extension
+    point="kodi.audiodecoder"
+    name="ym"
+    extension=".ym"
+    tags="true"
+    library_android="libaudiodecoder.stsound.so"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">YM (spectrum) Audio Decoder</summary>
+    <description lang="en">YM (spectrum) Audio Decoder</description>
+    <platform>android</platform>
+  </extension>
+</addon>

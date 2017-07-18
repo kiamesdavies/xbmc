@@ -1,0 +1,1 @@
+cmd='<SOURCE_DIR>/configure;--prefix=/root/kodi-android/tools/depends/target/binary-addons/i686-linux-android-android-21-debug/build/depends;--disable-xmms-plugin;--disable-cpplibs;--disable-asm-optimizations;--enable-static;--disable-shared;CFLAGS=-fPIC -DPIC -O2'

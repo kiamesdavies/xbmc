@@ -1,0 +1,160 @@
+--------------------
+./configure --prefix=/opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug --static
+Tue Jul 18 09:49:07 UTC 2017
+
+=== ztest14230.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+/opt/android-toolchain-x86/android-21/bin/i686-linux-android-gcc -c -DANDROID -fexceptions -fPIC -DPIC -Og -g -D_DEBUG -I/opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/include/android-21 -isystem /opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/include ztest14230.c
+... using gcc
+
+Building static library libz.a version 1.2.7 with /opt/android-toolchain-x86/android-21/bin/i686-linux-android-gcc.
+
+
+=== ztest14230.c ===
+#include <sys/types.h>
+off64_t dummy = 0;
+===
+/opt/android-toolchain-x86/android-21/bin/i686-linux-android-gcc -c -DANDROID -fexceptions -fPIC -DPIC -Og -g -D_DEBUG -I/opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/include/android-21 -isystem /opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/include -D_LARGEFILE64_SOURCE=1 ztest14230.c
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+
+=== ztest14230.c ===
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+===
+/opt/android-toolchain-x86/android-21/bin/i686-linux-android-gcc -DANDROID -fexceptions -fPIC -DPIC -Og -g -D_DEBUG -I/opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/include/android-21 -isystem /opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/include -D_LARGEFILE64_SOURCE=1 -o ztest14230 ztest14230.c
+Checking for strerror... Yes.
+
+=== ztest14230.c ===
+#include <unistd.h>
+int main() { return 0; }
+===
+/opt/android-toolchain-x86/android-21/bin/i686-linux-android-gcc -c -DANDROID -fexceptions -fPIC -DPIC -Og -g -D_DEBUG -I/opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/include/android-21 -isystem /opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/include -D_LARGEFILE64_SOURCE=1 ztest14230.c
+Checking for unistd.h... Yes.
+
+=== ztest14230.c ===
+#include <stdarg.h>
+int main() { return 0; }
+===
+/opt/android-toolchain-x86/android-21/bin/i686-linux-android-gcc -c -DANDROID -fexceptions -fPIC -DPIC -Og -g -D_DEBUG -I/opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/include/android-21 -isystem /opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/include -D_LARGEFILE64_SOURCE=1 ztest14230.c
+Checking for stdarg.h... Yes.
+
+=== ztest14230.c ===
+#include <stdio.h>
+#include <stdarg.h>
+#include "zconf.h"
+int main()
+{
+#ifndef STDC
+  choke me
+#endif
+  return 0;
+}
+===
+/opt/android-toolchain-x86/android-21/bin/i686-linux-android-gcc -c -DANDROID -fexceptions -fPIC -DPIC -Og -g -D_DEBUG -I/opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/include/android-21 -isystem /opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/include -D_LARGEFILE64_SOURCE=1 ztest14230.c
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+
+=== ztest14230.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return 0;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+/opt/android-toolchain-x86/android-21/bin/i686-linux-android-gcc -DANDROID -fexceptions -fPIC -DPIC -Og -g -D_DEBUG -I/opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/include/android-21 -isystem /opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/include -D_LARGEFILE64_SOURCE=1 -o ztest14230 ztest14230.c
+Checking for vsnprintf() in stdio.h... Yes.
+
+=== ztest14230.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  int n;
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  n = vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return n;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+/opt/android-toolchain-x86/android-21/bin/i686-linux-android-gcc -c -DANDROID -fexceptions -fPIC -DPIC -Og -g -D_DEBUG -I/opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/include/android-21 -isystem /opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/include -D_LARGEFILE64_SOURCE=1 ztest14230.c
+Checking for return value of vsnprintf()... Yes.
+
+=== ztest14230.c ===
+#define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
+int ZLIB_INTERNAL foo;
+int main()
+{
+  return 0;
+}
+===
+/opt/android-toolchain-x86/android-21/bin/i686-linux-android-gcc -c -DANDROID -fexceptions -fPIC -DPIC -Og -g -D_DEBUG -I/opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/include/android-21 -isystem /opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/include -D_LARGEFILE64_SOURCE=1 ztest14230.c
+Checking for attribute(visibility) support... Yes.
+
+=== ztest14230.c ===
+#include <stdio.h>
+#define is32(n,t) for(n=1,k=0;n;n<<=1,k++);if(k==32){puts(t);return 0;}
+int main() {
+    int k;
+    unsigned i;
+    unsigned long l;
+    unsigned short s;
+    is32(i, "unsigned")
+    is32(l, "unsigned long")
+    is32(s, "unsigned short")
+    return 1;
+}
+===
+/opt/android-toolchain-x86/android-21/bin/i686-linux-android-gcc -DANDROID -fexceptions -fPIC -DPIC -Og -g -D_DEBUG -I/opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/include/android-21 -isystem /opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/include -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN ztest14230.c -o ztest14230
+Looking for a four-byte integer type... Not found.
+
+ALL = static all64
+AR = /opt/android-toolchain-x86/android-21/bin/i686-linux-android-ar
+ARFLAGS = rc
+CC = /opt/android-toolchain-x86/android-21/bin/i686-linux-android-gcc
+CFLAGS = -DANDROID -fexceptions -fPIC -DPIC -Og -g -D_DEBUG -I/opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/include/android-21 -isystem /opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/include -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+CPP = /opt/android-toolchain-x86/android-21/bin/i686-linux-android-gcc -E
+EXE =
+LDCONFIG = ldconfig
+LDFLAGS =
+LDSHARED = /opt/android-toolchain-x86/android-21/bin/i686-linux-android-gcc
+LDSHAREDLIBC = -lc
+OBJC = $(OBJZ) $(OBJG)
+PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)
+RANLIB = /opt/android-toolchain-x86/android-21/bin/i686-linux-android-ranlib
+SFLAGS = -DANDROID -fexceptions -fPIC -DPIC -Og -g -D_DEBUG -I/opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/include/android-21 -isystem /opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/include -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+SHAREDLIB =
+SHAREDLIBM =
+SHAREDLIBV =
+STATICLIB = libz.a
+TEST = all teststatic test64
+VER = 1.2.7
+Z_U4 =
+exec_prefix = ${prefix}
+includedir = ${prefix}/include
+libdir = ${exec_prefix}/lib
+mandir = ${prefix}/share/man
+prefix = /opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug
+sharedlibdir = ${libdir}
+uname = Linux
+--------------------
+
+

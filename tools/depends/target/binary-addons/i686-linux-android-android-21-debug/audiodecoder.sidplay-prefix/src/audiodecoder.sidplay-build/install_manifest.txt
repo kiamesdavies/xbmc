@@ -1,0 +1,2 @@
+/opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/lib/kodi/addons/audiodecoder.sidplay/libaudiodecoder.sidplay.so
+/opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/share/kodi/addons/audiodecoder.sidplay/addon.xml

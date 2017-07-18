@@ -1,0 +1,9 @@
+/root/kodi-android/tools/depends/target/binary-addons/i686-linux-android-android-21-debug/build/depends/lib/libjsoncpp.a
+/root/kodi-android/tools/depends/target/binary-addons/i686-linux-android-android-21-debug/build/depends/include/jsoncpp/json/config.h
+/root/kodi-android/tools/depends/target/binary-addons/i686-linux-android-android-21-debug/build/depends/include/jsoncpp/json/features.h
+/root/kodi-android/tools/depends/target/binary-addons/i686-linux-android-android-21-debug/build/depends/include/jsoncpp/json/autolink.h
+/root/kodi-android/tools/depends/target/binary-addons/i686-linux-android-android-21-debug/build/depends/include/jsoncpp/json/writer.h
+/root/kodi-android/tools/depends/target/binary-addons/i686-linux-android-android-21-debug/build/depends/include/jsoncpp/json/json.h
+/root/kodi-android/tools/depends/target/binary-addons/i686-linux-android-android-21-debug/build/depends/include/jsoncpp/json/reader.h
+/root/kodi-android/tools/depends/target/binary-addons/i686-linux-android-android-21-debug/build/depends/include/jsoncpp/json/value.h
+/root/kodi-android/tools/depends/target/binary-addons/i686-linux-android-android-21-debug/build/depends/include/jsoncpp/json/forwards.h

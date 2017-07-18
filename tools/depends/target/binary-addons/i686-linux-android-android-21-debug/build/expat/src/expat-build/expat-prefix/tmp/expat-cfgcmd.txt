@@ -1,0 +1,1 @@
+cmd='./configure;--prefix=/root/kodi-android/tools/depends/target/binary-addons/i686-linux-android-android-21-debug/build/depends;--disable-shared;CFLAGS=-fPIC'

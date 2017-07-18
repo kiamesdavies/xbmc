@@ -1,0 +1,1 @@
+cmd='<SOURCE_DIR>/configure;--prefix=/root/kodi-android/tools/depends/target/binary-addons/i686-linux-android-android-21-debug/build/depends;--disable-oggtest;--disable-docs;--disable-examples;--enable-static;--disable-shared;CFLAGS=-fPIC -DPIC -O2'

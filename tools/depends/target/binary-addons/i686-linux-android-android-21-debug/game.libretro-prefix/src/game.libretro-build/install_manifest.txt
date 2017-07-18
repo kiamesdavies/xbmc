@@ -1,0 +1,5 @@
+/opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/lib/kodi/addons/game.libretro/libgame.libretro.so
+/opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/share/kodi/addons/game.libretro/addon.xml
+/opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/share/kodi/addons/game.libretro/resources/settings.xml
+/opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/share/kodi/addons/game.libretro/resources/language/English/strings.po
+/opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/share/kodi/addons/game.libretro/icon.png

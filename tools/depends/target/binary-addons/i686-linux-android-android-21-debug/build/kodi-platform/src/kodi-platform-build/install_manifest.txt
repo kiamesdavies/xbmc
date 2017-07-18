@@ -1,0 +1,4 @@
+/root/kodi-android/tools/depends/target/binary-addons/i686-linux-android-android-21-debug/build/depends/lib/libkodiplatform.a
+/root/kodi-android/tools/depends/target/binary-addons/i686-linux-android-android-21-debug/build/depends/include/kodi/util/XMLUtils.h
+/root/kodi-android/tools/depends/target/binary-addons/i686-linux-android-android-21-debug/build/depends/lib/pkgconfig/kodiplatform.pc
+/root/kodi-android/tools/depends/target/binary-addons/i686-linux-android-android-21-debug/build/depends/lib/kodiplatform/kodiplatform-config.cmake

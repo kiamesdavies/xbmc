@@ -1,0 +1,5 @@
+#!/opt/android-dev/android/xbmc-depends/x86_64-linux-gnu-native/bin/python
+
+from idlelib.PyShell import main
+if __name__ == '__main__':
+    main()

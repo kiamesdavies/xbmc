@@ -1,0 +1,2 @@
+/opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/lib/kodi/addons/imagedecoder.raw/libimagedecoder.raw.so
+/opt/android-dev/android/xbmc-depends/i686-linux-android-android-21-debug/share/kodi/addons/imagedecoder.raw/addon.xml

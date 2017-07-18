@@ -1,0 +1,2 @@
+file(COPY /root/kodi-android/tools/depends/target/binary-addons/i686-linux-android-android-21-debug/build/expat/src/expat/config.sub /root/kodi-android/tools/depends/target/binary-addons/i686-linux-android-android-21-debug/build/expat/src/expat/config.guess
+               DESTINATION /root/kodi-android/tools/depends/target/binary-addons/i686-linux-android-android-21-debug/build/expat/src/expat/conftools/)
