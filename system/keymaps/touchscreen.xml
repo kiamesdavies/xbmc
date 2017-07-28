@@ -23,6 +23,7 @@
 <keymap>
   <global>
     <touch>
+	  <!-- 
       <tap>LeftClick</tap>
       <longpress>RightClick</longpress>
       <tap pointers="2">RightClick</tap>
@@ -34,7 +35,9 @@
       <swipe direction="down">SwipeDown</swipe>
       <swipe direction="up" pointers="3">SwitchPlayer</swipe>
       <swipe direction="down" pointers="3">ActivateWindow(PlayerControls)</swipe>
+	  -->
     </touch>
+	
   </global>
   <FileManager>
     <touch>
@@ -45,7 +48,7 @@
   </FileManager>
   <FullScreenVideo>
     <touch>
-      <swipe direction="left">StepBack</swipe>
+     <!-- <swipe direction="left">StepBack</swipe>
       <swipe direction="right">StepForward</swipe>
       <swipe direction="up">ChapterOrBigStepForward</swipe>
       <swipe direction="down">ChapterOrBigStepBack</swipe>
@@ -53,8 +56,11 @@
       <swipe direction="down" pointers="2">SkipPrevious</swipe>
       <tap pointers="2">Playlist</tap>
       <tap pointers="3">PlayPause</tap>
+	-->
     </touch>
+	
   </FullScreenVideo>
+  
   <FullScreenGame>
     <touch>
       <swipe direction="left">StepBack</swipe>

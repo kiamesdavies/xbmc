@@ -143,6 +143,10 @@ public class Main extends NativeActivity implements Choreographer.FrameCallback
               }
             }
           });
+	 Intent andromediaIntent  = new Intent("com.sycliff.andromedia.device.KODI_STARTED");
+	 andromediaIntent.setPackage("com.sycliff.andromedia.app");
+	 startService(andromediaIntent);
+	 Log.d("Kodi Main", "Sent intent com.sycliff.andromedia.device.KODI_STARTED");
   }
 
   @Override

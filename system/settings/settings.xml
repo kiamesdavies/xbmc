@@ -1780,7 +1780,7 @@
                 </setting>
                 <setting id="services.esallinterfaces" type="boolean" label="14277" help="36338">
                     <level>1</level>
-                    <default>false</default>
+                    <default>true</default>
                     <dependencies>
                         <dependency type="enable">
                             <condition setting="services.esenabled" operator="is">true</condition>
@@ -3207,7 +3207,7 @@
             <group id="1" label="14218">
                 <setting id="locale.language" type="addon" label="248" help="36114">
                     <level>0</level>
-                    <default>resource.language.en_gb</default>
+                    <default>resource.language.en_us</default>
                     <constraints>
                         <addontype>kodi.resource.language</addontype>
                     </constraints>
@@ -3259,7 +3259,7 @@
                 <setting id="locale.timezonecountry" type="string" label="14079" help="36117">
                     <level>1</level>
                     <default>default</default> <!-- will be properly set on startup -->
-                    <constraints>
+                    <constraints>ki
                         <options>timezonecountries</options>
                     </constraints>
                     <control type="list" format="string" />

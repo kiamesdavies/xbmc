@@ -147,7 +147,7 @@ public class Splash extends Activity {
 
           break;
         case StartingXBMC:
-          mSplash.mTextView.setText("Starting @APP_NAME@...");
+          mSplash.mTextView.setText("Starting Sycliff...");
           mSplash.mProgress.setVisibility(View.INVISIBLE);
           mSplash.startXBMC();
           break;
@@ -187,6 +187,7 @@ public class Splash extends Activity {
       int ret = 0;
       try {
         URL url = new URL(src);
+         Log.d(TAG, "URL is  " + url );
         connection = (HttpURLConnection) url.openConnection();
         connection.connect();
 
