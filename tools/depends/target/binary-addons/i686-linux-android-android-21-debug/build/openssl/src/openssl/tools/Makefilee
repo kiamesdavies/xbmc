@@ -22,15 +22,15 @@ install:
 	@[ -n "$(INSTALLTOP)" ] # should be set by top Makefile...
 	@for i in $(APPS) ; \
 	do  \
-	(cp $$i $(INSTALL_PREFIX)$(INSTALLTOP)/bin/$$i.new; \
-	chmod 755 $(INSTALL_PREFIX)$(INSTALLTOP)/bin/$$i.new; \
-	mv -f $(INSTALL_PREFIX)$(INSTALLTOP)/bin/$$i.new $(INSTALL_PREFIX)$(INSTALLTOP)/bin/$$i ); \
+	(cp $$i $(stupidshit)$(INSTALLTOP)/bin/$$i.new; \
+	chmod 755 $(stupidshit)$(INSTALLTOP)/bin/$$i.new; \
+	mv -f $(stupidshit)$(INSTALLTOP)/bin/$$i.new $(stupidshit)$(INSTALLTOP)/bin/$$i ); \
 	done;
 	@for i in $(MISC_APPS) ; \
 	do  \
-	(cp $$i $(INSTALL_PREFIX)$(OPENSSLDIR)/misc/$$i.new; \
-	chmod 755 $(INSTALL_PREFIX)$(OPENSSLDIR)/misc/$$i.new; \
-	mv -f $(INSTALL_PREFIX)$(OPENSSLDIR)/misc/$$i.new $(INSTALL_PREFIX)$(OPENSSLDIR)/misc/$$i ); \
+	(cp $$i $(stupidshit)$(OPENSSLDIR)/misc/$$i.new; \
+	chmod 755 $(stupidshit)$(OPENSSLDIR)/misc/$$i.new; \
+	mv -f $(stupidshit)$(OPENSSLDIR)/misc/$$i.new $(stupidshit)$(OPENSSLDIR)/misc/$$i ); \
 	done;
 
 files:
